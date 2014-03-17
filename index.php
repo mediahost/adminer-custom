@@ -16,6 +16,7 @@ function adminer_object() {
 		new AdminerDisableJush,
 		new AdminerAutocomplete,
 		new AdminerSaveMenuPos,
+		new AdminerSqlLog("database.sql"),
 	);
 
 	return new AdminerPlugin($plugins);
