@@ -17,6 +17,7 @@ function adminer_object() {
 		new AdminerAutocomplete,
 		new AdminerSaveMenuPos,
 		new AdminerSqlLog("database.sql"),
+		new AdminerTinymce,
 	);
 
 	return new AdminerPlugin($plugins);
