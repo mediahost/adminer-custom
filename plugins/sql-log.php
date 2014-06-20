@@ -17,7 +17,7 @@ class AdminerSqlLog {
 		$this->filename = $filename;
 	}
 	
-	function messageQuery($query, $time) {
+	function messageQuery($query, $time = NULL) {
 		if ($this->filename == "") {
 			$adminer = adminer();
 			$this->filename = $adminer->database() . ".sql"; // no database goes to ".sql" to avoid collisions
