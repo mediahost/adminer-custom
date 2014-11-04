@@ -16,7 +16,7 @@ function adminer_object() {
 		new AdminerDisableJush,
 		new AdminerAutocomplete,
 		new AdminerSaveMenuPos,
-		new AdminerSqlLog("database.sql"),
+		new AdminerSqlLog("database-log.sql"),
 		new AdminerTinymce,
 	);
 
